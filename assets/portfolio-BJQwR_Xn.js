@@ -42,7 +42,7 @@ function x() {
                     children: "Portfolio"
                 }), e.jsx("h1", {
                     className: "text-4xl font-light text-stone-900 mb-4",
-                    children: "Alexandra Morgan — Architecture Portfolio"
+                    children: "Maxence Lambert — Architecture Portfolio"
                 }), e.jsx("p", {
                     className: "text-stone-500 max-w-xl leading-relaxed",
                     children: "A curated selection of built work and competition entries spanning civic buildings, residential design, and mixed-use urban infill projects."
@@ -51,7 +51,7 @@ function x() {
                 className: "flex flex-wrap gap-4 mb-10",
                 children: [e.jsxs("a", {
                     href: t,
-                    download: "Alexandra_Morgan_Architecture_Portfolio.pdf",
+                    download: "PORTFOLIO_LAMBERT_Maxence_compressed.pdf",
                     className: "inline-flex items-center gap-2 bg-stone-900 text-white text-sm px-5 py-3 rounded font-medium hover:bg-stone-700 transition-colors",
                     children: [e.jsx(s, {
                         size: 16
