@@ -74,7 +74,7 @@ function x() {
                         className: "text-stone-500"
                     }), e.jsx("span", {
                         className: "text-sm text-stone-600 font-medium",
-                        children: "Alexandra_Morgan_Architecture_Portfolio.pdf"
+                        children: "PORTFOLIO_LAMBERT_Maxence_compressed.pdf"
                     })]
                 }), e.jsx("div", {
                     className: "relative w-full",
@@ -124,7 +124,7 @@ function x() {
                 })]
             }), e.jsx("p", {
                 className: "mt-6 text-xs text-stone-400 text-center",
-                children: "Portfolio updated March 2025 · 28 pages · PDF format"
+                children: "Portfolio updated March 2026 · 28 pages · PDF format"
             })]
         })
     })
