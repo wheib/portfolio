@@ -1,0 +1,62 @@
+Si vous cherchez un hébergement gratuit pour créer un site simple (par exemple, pour partager un PDF avec un lien personnalisé), voici les meilleures solutions en 2026, classées par facilité d’utilisation et fonctionnalités.
+
+📌 Critères pour choisir un hébergement gratuit
+Avant de commencer, voici ce qu’il faut vérifier :
+✅ Pas de publicité imposée (certains hébergeurs affichent des pubs sur votre site).
+✅ Nom de domaine personnalisé (ex: monsite.com ou monsite.free.fr).
+✅ Support des fichiers statiques (HTML, PDF, images).
+✅ Accès FTP (pour uploader vos fichiers facilement).
+✅ Pas de limite de temps (certains suppriment le site après 30 jours).
+✅ SSL gratuit (pour un site en https://).
+
+🚀 Top 5 des hébergements gratuits pour un site simple
+1️⃣ GitHub Pages (le meilleur pour les débutants)
+✅ Idéal pour : Un site statique (HTML, PDF, images) avec un nom de domaine personnalisé.
+✅ Avantages :
+
+100% gratuit, sans pub.
+Nom de domaine personnalisé possible (ex: monsite.com).
+Intégration Git (versioning, déploiement automatique).
+SSL gratuit (HTTPS).
+Pas de limite de temps.
+
+❌ Inconvénients :
+
+Pas de PHP/MySQL (uniquement du HTML/CSS/JS).
+Limite de 1 Go (suffisant pour un PDF).
+
+🔹 Comment faire ?
+
+Créez un compte GitHub (github.com).
+Créez un dépôt nommé votre-pseudo.github.io (remplacez votre-pseudo par votre nom d’utilisateur).
+Activez GitHub Pages :
+Allez dans Settings > Pages > Sélectionnez la branche main > Save.
+
+
+Uploadez votre PDF + un fichier index.html (exemple ci-dessous).
+Votre site sera accessible sur https://votre-pseudo.github.io.
+
+📄 Exemple de index.html pour partager un PDF :
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon PDF</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>📄 Téléchargez mon PDF</h1>
+    <p>Cliquez sur le bouton ci-dessous pour télécharger le fichier.</p>
+    <a href="mon-fichier.pdf" class="download-btn" download>Télécharger le PDF</a>
+</body>
+</html>
